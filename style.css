@@ -4,8 +4,11 @@
 /*components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 /*screeens*/
 @import "screens/login.css";
+@import "screens/friends.css";
 body {
   font-family: "Source Sans Pro", sans-serif;
   height: 1000vh;
