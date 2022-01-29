@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
+  margin-bottom: 10px;
 }
 
 .screen-header__title {
@@ -12,4 +13,24 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+.screen-header__set-icon {
+  position: relative;
+}
+.screen-header__notification-xs {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: tomato;
+  bottom: 20px;
+  left: 20px;
 }
