@@ -26,8 +26,44 @@
   margin-left: auto;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .alt-header__column span:last-child {
   margin-left: 20px;
+}
+
+.alt-header__column-box {
+  display: flex;
+  justify-content: center;
+  width: 230px;
+  border: 1px solid var(--sminfo);
+  border-radius: 20px;
+  padding: 10px 15px;
+  background-color: rgb(16, 26, 54);
+}
+.alt-header__column-box i {
+  margin-right: 5px;
+}
+#alt-header {
+  background-color: #0d0922;
+}
+.alt-header__my-music {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.alt-header__my-music div:first-child {
+  margin-left: 20px;
+  border-bottom: 2px solid var(--sminfo);
+  padding: 0px 20px;
+  padding-bottom: 20px;
+}
+.alt-header__my-music div:last-child {
+  margin: 0 25px 15px 0;
+  border: 1px solid var(--sminfo);
+  border-radius: 20px;
+  padding: 10px 15px;
+  color: rgba(240, 219, 255, 0.4);
 }

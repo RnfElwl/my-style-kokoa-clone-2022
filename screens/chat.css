@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: #020f27;
   height: 500vh;
 }
 
@@ -8,7 +8,7 @@
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: rgb(5, 0, 29);
   box-sizing: border-box;
 }
 
@@ -42,7 +42,7 @@
 
 .chat__timestamp {
   color: white;
-  background-color: #92a4b2;
+  background-color: #283c4b;
   padding: 15px;
   font-size: 14px;
   border-radius: 25px;
@@ -73,7 +73,7 @@
 }
 
 .message__bubble {
-  background-color: white;
+  background-color: rgb(92, 92, 92);
   padding: 13px;
   font-size: 18px;
   border-radius: 15px;
@@ -85,14 +85,24 @@
 .message__author {
   opacity: 0.8;
   font-size: 14px;
+  margin: 0 5px;
 }
-
-.message-row--own {
+.message__read {
+  color: var(--mint);
+}
+.message__info div {
+  display: flex;
+  flex-direction: column;
+}
+.message-row--own,
+.message-row--own .message__read {
+  display: flex;
   justify-content: flex-end;
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: var(--mint);
+  color: black;
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;
@@ -107,7 +117,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: white;
+  background-color: rgb(7, 0, 32);
   display: flex;
   justify-content: space-between;
   padding: 5px 25px;
@@ -150,7 +160,7 @@
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: var(--mint);
   border: none;
   width: 40px;
   height: 40px;
@@ -184,4 +194,14 @@
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+.main-screen .user-component {
+  padding: 25px 0px;
+  border-bottom: 1px solid rgba(133, 95, 133, 0.2);
+}
+.main-screen a:first-child .user-component {
+  padding-top: 0px;
+}
+.main-screen a:last-child .user-component {
+  border-bottom: 0;
 }

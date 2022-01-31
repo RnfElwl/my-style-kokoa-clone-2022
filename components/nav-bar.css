@@ -3,16 +3,16 @@
   bottom: 0;
   box-sizing: border-box;
   width: 100%;
-  background-color: #f9f9fa;
-  padding: 20px 50px;
-  border-top: 1px solid rgba(121, 121, 121, 0.3);
+  background-color: #00011b;
+  padding: 5px 20px;
+  border-top: 1px solid rgba(68, 61, 109, 0.5);
 }
 .nav__list {
   display: flex;
   justify-content: space-between;
 }
 .nav__link {
-  color: #2e363e;
+  color: #44db9c;
   position: relative;
 }
 .nav__notification {
@@ -72,6 +72,11 @@
 }
 
 .nav__btn {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transform: translateY(50px);
   opacity: 0;
   animation: appearBtnAnimation 0.3s ease-in-out forwards;
@@ -85,4 +90,9 @@
 }
 .nav__btn:last-child {
   animation-delay: 0.8s;
+}
+.nav__stay {
+  background-color: rgb(63, 63, 57);
+  border-radius: 5px;
+  transform: scale(1.5);
 }

@@ -2,4 +2,7 @@
   --yellow: #fae100;
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.3);
+  --background: rgb(2, 2, 36);
+  --mint: rgb(51, 243, 169);
+  --sminfo: rgba(224, 175, 212, 0.3);
 }
