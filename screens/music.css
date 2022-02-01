@@ -92,8 +92,6 @@
   display: none;
 }
 .play-music {
-  position: fixed;
-  bottom: 70px;
   margin-top: 10px;
   width: 90%;
   height: 100px;
