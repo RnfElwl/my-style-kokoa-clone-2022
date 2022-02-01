@@ -90,9 +90,11 @@
   align-items: center;
   justify-content: center;
 }
+
 .user-component__friends {
   display: flex;
   flex-direction: column;
+  height: 150vh;
 }
 .user-component__friends .user-component {
   margin-bottom: 20px;
