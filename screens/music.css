@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
 }
 .music h1 {
   font-size: 27px;
@@ -59,7 +58,7 @@
   overflow-y: scroll;
   padding: 20px;
   width: 450px;
-  height: 500px;
+  height: 400px;
   background-color: rgb(146, 146, 146);
   border-radius: 0px 0px 20px 20px;
 }
