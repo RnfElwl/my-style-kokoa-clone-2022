@@ -10,6 +10,7 @@
   font-size: 32px;
   top: 0;
   color: var(--mint);
+  padding-bottom: 100vh;
 }
 
 @media screen and (max-width: 645px) {
